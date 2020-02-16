@@ -2,7 +2,7 @@
 ### Introduction
 - my_pass: 
    
-    使用腾讯的代理服务器发送需要16位发件人邮箱授权码（不同于登录密码）
+    使用腾讯的代理服务器发送需要16位发件人邮箱授权码（不同于登录密码）  
     对于腾讯企业邮箱，需要先绑定微信，再申请授权码 
     
 - 服务端配置的两种方法：
@@ -10,10 +10,8 @@
     - server = smtplib.SMTP_SSL(smtp_server, 465) #失败，原因不明
     - server = smtplib.SMTP(smtp_server, 25) #成功
 
-### Summary
-- Model: LGBM
-- Auc: 0.9286
-- Acc: 0.8775 
+### Figure
+![result](illustration/3.png)
 
 ### Reference
 - 廖雪峰python: [SMTP发送邮件](https://www.liaoxuefeng.com/wiki/897692888725344/923057144964288)
