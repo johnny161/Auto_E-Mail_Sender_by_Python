@@ -7,11 +7,10 @@
     
 - 服务端配置的两种方法：
 
-    - server = smtplib.SMTP_SSL(smtp_server, 465) #失败，原因不明
-    - server = smtplib.SMTP(smtp_server, 25) #成功
+    - server = smtplib.SMTP_SSL(smtp_server, 465) # 失败，原因不明
+    - server = smtplib.SMTP(smtp_server, 25)      # 成功
 
-### Figure
-- result: 
+### Result_Figure
 ![result](/illustration/3.png)
 
 ### Reference
